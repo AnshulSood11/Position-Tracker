@@ -9,5 +9,5 @@
 3. MPU9250 (accelerometer, gyroscope and magnetometer)
 
 ## The tracker has the following limitaions/assumptions:
-- The bot is placed on a horizontal surface with no inclination. So, the tracke tracks the postion in 2D only.
+- The bot is placed on a horizontal surface with no inclination. So, the tracker tracks the postion in 2D only.
 - Euler angles are used.
