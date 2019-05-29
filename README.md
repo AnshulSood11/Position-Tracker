@@ -8,6 +8,6 @@
 2. Logitech G102 gaming mouse
 3. MPU9250 (accelerometer, gyroscope and magnetometer)
 
-## The tracker has the following limitaions/assumptions:
+## The tracker has the following limitations/assumptions:
 - The bot is placed on a horizontal surface with no inclination. So, the tracker tracks the postion in 2D only.
 - Euler angles are used.
