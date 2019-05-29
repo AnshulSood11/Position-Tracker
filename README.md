@@ -11,3 +11,9 @@
 ## The tracker has the following limitations/assumptions:
 - The bot is placed on a horizontal surface with no inclination. So, the tracker tracks the postion in 2D only.
 - Euler angles are used.
+
+## How to Run :-
+- First run IMU.py and Mouse2.py. You should now see data being published on the terminal.
+- Then run positionEstimation.py. Now you will see the states of the filter being updated 10 times every second. Thats because I have set the time interval between 2 states (dt) as 0.1 sec. You can decrease this interval to increase accuracy though it will cost more processing power.
+- Then run server2.py from simpleDAQ on raspi
+- Run client2.py on your PC (For this to work, connect your PC to raspi's hotspot). You shall now see real time position of the bot being plotted on your pc's screen. 
